@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+            * {
+                margin:0;
+                padding:0;
+                box-sizing:border-box
+            }
+            
+            h1, span, h3, p{
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                color: #edf0f1;
+                text-decoration: none;
+                text-align: left;
+            }
+
+            img {
+                    
+                height: auto;
+                width: 400px;
+                margin-right: 20px;  
+                vertical-align: bottom !important;
+                margin-bottom: 6px;  
+            }
+
+            .box {
+                color: white;
+                width: 400px;
+                display:inline-block;
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+
+            .box1 {
+                color: white;
+                height: auto;
+                width: 630px;
+                display:inline-block;
+                text-align: left;
+                padding-bottom: 50px;
+            }
+
+            .container {
+                text-align: center;
+                margin: 120px auto ;
+            }
+
+            /* TEXT DAVID LAID */
+    
+            h1 {
+                padding-bottom: 20px;
+                font-size: 40px;
+                color: rgba(1, 126, 254, 1) !important;
+            }
+            
+            h3 {
+                padding-bottom: 20px;
+            }
+            
+            p {
+                padding-bottom: 20px;
+            }
+            
+            span {
+                font-size: 25px;
+            }
+
+            /* TELEFON */
+
+            @media (max-width:600px) {
+                .box1 {
+                color: white;
+                height: auto;
+                width: 400px;
+                text-align: center;
+            }
+            }

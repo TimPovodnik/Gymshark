@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #24252A;
+}
+
+a{
+    color: white !important; /* bootstrap ima barvo, ki se ne ujema z mojo stranjo */
+}
+
+.col-md-6{
+    border: 1px solid rgb(33, 129, 173);
+    text-align: center;
+}

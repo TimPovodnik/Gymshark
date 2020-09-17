@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #24252A;
+}
+
+p{
+    color:black;
+}
+
+.ck .ck-link_selected {
+    color: black !important;
+} 
+
+link{
+    color: white;
+}
+.margin-pSide{
+    margin-top: 20px;
+}
+
+.row{ /* da ne raztegne cele strani kot v default bootstrapu.*/
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+}
+
+.col-md-3{
+    border: 1px solid rgb(33, 129, 173);
+    text-align: center;
+}
+
+.col-md-9{
+    border: 1px solid rgb(33, 129, 173);
+}
+
+/* -------- GUMBI NA STRANI -------- */
+.buttonSide {
+    padding: 7px 25px;
+    background-color: rgb(1, 126, 254, 1);
+    border: solid 2px dodgerblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.buttonSide:hover {
+    background-color: rgba(1, 126, 254, 0);
+    border: solid 2px dodgerblue;
+    color: white !important;
+}
+
+a{
+    color: white !important; /* bootstrap ima barvo, ki se ne ujema z mojo stranjo */
+}
+
+/* -------- GUMB DODAJ -------- */
+.buttonAdd {
+    padding: 7px 25px;
+    background-color: rgb(1, 126, 254, 1);
+    border: solid 2px dodgerblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 10px;    
+    margin-top: 30px;  
+    width: 180px;
+}
+
+.buttonAdd:hover {
+    background-color: rgba(1, 126, 254, 0);
+    border: solid 2px dodgerblue;
+    color: white !important;
+}
+
+
+/* -------- GUMB EDIT & GUMB DELETE -------- */
+.edit {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+.delete {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+
+/* -------- TEXT -------- */
+label{
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+}
+
+.text-input{
+    margin-bottom: 30px;
+    width: 345px;
+}
+
+.no {
+    color: red;
+}
+
+.yes {
+    color: rgb(14, 243, 45);
+}

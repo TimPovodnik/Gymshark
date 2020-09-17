@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.container {
+    text-align: center; 
+    /* PORAVNANA NA SREDINO S POMOČJO 
+    display: inline-block; in text-align: center; */
+
+    padding-bottom: 40px;
+}
+
+.checkMark {
+    height: 13px;
+    width: 20px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.Mark {
+    height: 43px;
+    width: 80px;
+}
+
+/* SLIKA 1 in BOX ter BOX 1*/
+
+.container .box img {
+    height: auto;
+    width: 350px;
+}
+
+.box {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box1 {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.box1 li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #edf0f1;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+/* SLIKA 2 in BOX 2 ter BOX 3*/
+
+.container .box2 img {
+    height: auto;
+    width: 350px;
+}
+
+.box2 {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box3 {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.box3 li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #edf0f1;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+
+/* SLIKA 3 in BOX 4 ter BOX 5*/
+
+.container .box4 img {
+    height: auto;
+    width: 350px;
+}
+
+.box4 {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box5 {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+
+.box5 li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #edf0f1;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+/* NASLOVI */
+
+span{
+    color: #017EFE;
+    font-size: 18px;
+
+}
+
+/* GUMB */
+
+button {
+    padding: 7px 20px;
+    background-color: rgb(1, 126, 254, 1);
+    border: solid 2px dodgerblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 20px !important;
+}
+
+button:hover {
+    background-color: rgba(1, 126, 254, 0.6);
+    background-color: rgba(1, 126, 254, 0);
+    border: solid 2px dodgerblue;
+    color: white;
+}
+
+/* TELEFON */
+
+@media only screen and (max-width: 600px) {
+    /* SLIKA 1 in BOX ter BOX 1*/
+
+.container .box img {
+    height: auto;
+    width: 350px;
+}
+
+.box {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box1 {
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+
+.box1 li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #edf0f1;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+/* SLIKA 2 in BOX 2 ter BOX 3*/
+
+.container .box2 img {
+    height: auto;
+    width: 350px;
+}
+
+.box2 {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box3 {
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+
+.box3 li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #edf0f1;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+
+/* SLIKA 3 in BOX 4 ter BOX 5*/
+
+.container .box4 img {
+    height: auto;
+    width: 350px;
+}
+
+.box4 {
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box5 {
+    width: 340px;
+    height: auto;
+    display: inline-block;
+}
+
+.box5 li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: #edf0f1;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+  }
+  
+  
+/* ------- COMMENT SECTION -------- */
+.row{ /* da ne raztegne cele strani kot v default bootstrapu.*/
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+    /* border: solid 3px dodgerblue; */
+    justify-content: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+
+/* -------- EDIT BUTTON --------*/
+.edit-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 45px;
+    height: 22px;
+    background-color: rgb(1, 126, 254, 1);
+    padding: 0px !important;
+    font-size: 12px;
+    border-radius: 20px !important;
+}
+
+.edit-btn:hover {
+    background-color: rgba(1, 126, 254, 0.6);
+    background-color: rgba(1, 126, 254, 0);
+    border: solid 2px dodgerblue;
+    color: black;
+}
+/* ------- DELETE BUTTON ------- */
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 55px;
+    width: 50px;
+    height: 22px;
+    background-color: rgb(1, 126, 254, 1);
+    padding: 0px !important;
+    font-size: 12px;
+    border-radius: 20px !important;
+}
+
+.delete-btn:hover {
+    background-color: rgba(1, 126, 254, 0.6);
+    background-color: rgba(1, 126, 254, 0);
+    border: solid 2px dodgerblue;
+    color: black;
+}
+
+/* -------- OCENA DROPDOWN --------*/
+.grade {
+    position: absolute;
+    top: 5px;
+    right: 120px;
+}
+.dropdown {
+    border: solid 1px dodgerblue;
+    border-radius: 10px;
+}
+.title-dropdown {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+}
+.checked {
+  color: orange;
+}
+.unchecked {
+  color: black;
+}
+
+/* CONTENT V BOXU */
+.uime {
+    color: dodgerblue;
+    font-weight: 500;
+}
+
+.datum{
+    font-size: 12px;
+    color: gray;
+}
+
+
+/* COMMENT BUTTON */
+.comment-btn {
+    margin: 5px 0px 20px 0px;
+}
+
+
+/* COMMENT MESSAGE */
+.comment-msg {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* COMMENT BOX */
+.col-md-12 {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    position:relative;
+    margin-bottom: 10px;
+}
+
+/* COMMENT SUBMIT BOX */
+#comment-box {
+    background-color: #212529 !important;
+    border-radius: 4px;
+    position:relative;
+    margin-bottom: 10px;
+    padding: 0 !important;
+}
+
+/* TEXTAREA */
+textarea{
+    width: 100%;
+    background-color: #fff;
+    resize: none !important;
+    min-height: 80px;
+    outline: none !important;
+    border: solid 1px dodgerblue;
+}
+
+
+/* RESPOSNIVE */
+@media only screen and (max-width: 800px) {
+  .row{ /* da ne raztegne cele strani kot v default bootstrapu.*/
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+

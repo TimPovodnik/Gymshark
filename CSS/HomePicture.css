@@ -1,0 +1,113 @@
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../SLIKE/BG3.jpg");
+
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Add the blur effect 
+    filter: blur(2px);
+    -webkit-filter: blur(2px);*/
+}
+
+.row{
+    /* border: 1px solid green;    */
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+}
+.col-md-12{
+    border: 1px solid rgb(33, 129, 173);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    margin-top: 280px;
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 220px;
+}
+
+.heading1{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.heading2{
+    letter-spacing: 3px;
+}
+
+
+/* 2 tretina strani */
+.icon{
+    background: #fff url(//cdn.shopify.com/s/files/1/2512/7588/t/6/assets/icon-chevron-down.svg?115) no-repeat center center;
+    background-size: 50%;
+    border-radius: 100%;
+    content: "";
+    height: 50px;
+    width: 60px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#row2{
+    background-color: #fff; 
+}
+
+
+/* 3 tretina strani */
+#row3{
+    background-color: #fff; 
+    padding-bottom: 40px;
+}
+
+/* .col{
+     border: 1px solid rgb(33, 129, 173); 
+} */
+
+.img1{
+    height: 100px; 
+    width: 100px;
+    display: block; /* za centeranje slik */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* urejanje Texta v col-ih */
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.description{
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+}
+
+
+/* FOOTER */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+}

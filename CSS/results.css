@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+            
+h1, span, h3, p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 16%;
+    max-width: 17%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  /* NASLOV */
+
+  .span{
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgba(1, 126, 254, 1);
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+    font-weight: normal !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+  p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: lighter !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}

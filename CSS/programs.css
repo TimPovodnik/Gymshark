@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.row{ /* da ne raztegne cele strani kot v default bootstrapu.*/
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+    margin-top: 100px;
+    /*border: solid 1px dodgerblue; */
+    padding: 50px;
+   
+}
+
+@media only screen and (max-width: 600px) {
+  .row{ 
+    padding: 0px;
+  }
+}
+
+.col{
+    position: relative;
+    width: 400px; /* širina boxov */
+    height: 300px;
+    min-width: 400px;
+    min-height: 300px;
+    max-width: 500px !important;
+    max-height: 400px !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    border: dodgerblue solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.col .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../SLIKE/fat.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.col:hover .img1 { /*animacija slike 1 v boxu */
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.col .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../SLIKE/muscular.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.col:hover .img2 { /*animacija slike 2 v boxu */
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+/* VSEBINA V BOXIH */
+.col .content {
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.col:hover .content { /* animacija texta v boxu */
+    top: 100px;
+    opacity: 1;
+}
+
+
+.col .content p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* GUMB V BOXIH */
+
+.button {
+    padding: 9px 25px;
+    margin-bottom: 5px;
+    background-color: rgb(1, 126, 254, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: rgb(1, 126, 254, 1);
+}
+
+/* NASLOV */
+.heading{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.opis{
+    letter-spacing: 4px;
+    padding: 0px 10px 0px 10px;
+}
+
+span{
+   color: rgb(1, 126, 254, 1);
+   font-size: 30px;
+}
+

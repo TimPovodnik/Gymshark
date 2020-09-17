@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: #24252A;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.form-box{
+
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background-color: rgb(60, 61, 66);
+    padding: 5px;
+    overflow: hidden; /* skrije 2 form */
+    border-radius: 20px;
+}
+
+.button-box{
+    width: 225px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #0000001f;
+    border-radius: 30px;
+}
+
+.toggle_button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 13px;
+    margin-left: 2px;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 115px;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to right,rgb(1, 126, 254, 1),rgb(1, 126, 254, 1));
+}
+
+.input{
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+p{
+    text-align: center;
+    color: #edf0f1;
+    margin-bottom: 0px !important;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background: transparent;
+    color: #edf0f1;
+}
+
+.input-field:hover{
+    border-bottom: 2px solid #edf0f1;
+}
+
+.submit-button{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,rgb(1, 126, 254, 1),rgb(1, 126, 254, 1));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
+
+.hide{
+    display: none;
+}

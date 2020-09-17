@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.row{ /* da ne raztegne cele strani kot v default bootstrapu.*/
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+    /* border: solid 3px dodgerblue; */
+    justify-content: center;
+    padding-left: 27%;
+    padding-right: 27%;
+    height: 800px;
+}
+
+/* ---------------- HEADING DESIGN ----------------*/
+.heading {
+    text-transform: uppercase;
+    font-size:30px;
+	font-weight: 400;
+	color: dodgerblue;
+}
+
+.heading2 {
+    text-transform: uppercase;
+    font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+/* ---------------- ORDER FORM DESIGN ----------------*/
+.col-md-12 {
+    width: 100%;
+    min-width: 350px;
+    padding: 20px 20px 20px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position:relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-container {
+	position:relative;
+	margin-bottom:25px; /* PROSTOR MED INPUTI */
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input-container label {
+	position:absolute;
+	top:5px;
+	left:0px;
+	font-size:16px;
+	font-weight: 400;
+	color: black;	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+/* DATUM-ROJSTVA NAPIS NAD INPUTOM */
+.input-container .date {
+    position:absolute;
+	top: -10px;
+	left:0px;
+	font-size:16px;
+	font-weight: 400;
+	color: black;	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input { 
+  border:0;
+  border-bottom: solid 2px #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color: black;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-container input:focus { 
+ border:none;	
+ outline:none;
+ border-bottom:solid 2px dodgerblue;	
+}
+/* ANIMACIJA LABELOV */
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-10px;
+	font-size:15px;
+	color: dodgerblue;
+}
+
+/* GUMB SUBMIT */
+.submit-btn {
+    padding: 8px 20px 8px 20px;
+    background-color: rgb(1, 126, 254, 1);
+    border: solid 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.submit-btn:hover {
+    background-color: rgba(1, 126, 254, 0);
+    border: solid 2px dodgerblue;
+    color: black;
+}
